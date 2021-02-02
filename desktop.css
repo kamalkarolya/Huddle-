@@ -6,18 +6,30 @@ body {
   font-size: 18px;
   font-family: "Open Sans";
 }
+@media screen and (max-width: 1211px){
+  body{
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 991px){
+  body{
+    font-size: 16px;
+  }
+}
 /* HEADER */
 header {
   display: flex;
   justify-content: space-between;
 }
 header div {
-  margin: 50px;
+  /* margin: 50px; */
+  margin: 3.66vw;
+  
 }
 #btn {
   background-color: white;
   text-decoration: none;
-  padding: 15px;
+   padding: 15px; 
   border: none;
   border-radius: 25px;
   font-family: "Poppins";
@@ -35,7 +47,8 @@ header div {
   background-color: hsl(193, 100%, 96%);
   content: "";
   position: absolute;
-  height: 117%;
+  /* height: 117%; */
+  height: 42em;
   width: 100%;
   top: 0px;
   left: 0px;
@@ -45,17 +58,20 @@ header div {
   height: 28rem;
   align-items: center;
   display: flex;
-  margin: 20px 50px;
+  /* margin: 20px 50px; */
+  margin: 1.46vw 3.66vw;
 }
 .home-image {
   text-align: end;
 }
 #home div h1 {
-  font-size: 2rem;
+  /* font-size: 2rem; */
+  font-size: 3vw;
   padding-bottom: 30px;
 }
 #home div p {
-  width: 512px;
+  /* width: 512px; */
+  width: 37.48vw;
   padding-bottom: 30px;
 }
 #home div img {
@@ -82,8 +98,10 @@ header div {
   align-items: center;
   display: flex;
   border-radius: 14px;
-  margin: 115px 63px 12px 63px;
-  padding: 47px 20px 42px 100px;
+  /* margin: 115px 63px 12px 63px; */
+  /* padding: 47px 20px 42px 100px; */
+  margin: 8.41vw 4.67vw 0.87vw 4.67vw;
+  padding: 3.44vw 1.46vw 3.07vw 7.32vw;
 }
 .content-image {
   text-align: end;
@@ -93,7 +111,8 @@ header div {
 }
 #content div p {
   color: hsl(208, 11%, 55%);
-  width: 512px;
+  /* width: 512px; */
+  width: 37.48vw;
   padding-bottom: 30px;
 }
 #content div img {
@@ -103,8 +122,10 @@ header div {
 /* CONTENT 1 */
 #content1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 36px 63px 12px 63px;
-  padding: 47px 20px 42px 100px;
+  /* margin: 36px 63px 12px 63px;
+  padding: 47px 20px 42px 100px; */
+  margin: 2.63vw 4.67vw 0.87vw 4.67vw;
+  padding: 3.44vw 1.46vw 3.07vw 7.32vw;
   background-color: white;
   align-items: center;
   display: flex;
@@ -115,7 +136,9 @@ header div {
 }
 #content1 div p {
   color: hsl(208, 11%, 55%);
-  width: 512px;
+  /* width: 512px; */
+  width: 37.48vw;
+
   padding-bottom: 30px;
 }
 #content1 div img {
@@ -125,8 +148,10 @@ header div {
 /* CONTENT 2 */
 #content2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 36px 63px 125px 63px;
-  padding: 47px 20px 42px 100px;
+  /* margin: 36px 63px 125px 63px;
+  padding: 47px 20px 42px 100px; */
+  margin: 2.63vw 4.67vw 9.15vw 4.67vw;
+  padding: 3.44vw 1.46vw 3.07vw 7.32vw;
   background-color: white;
   align-items: center;
   display: flex;
@@ -138,7 +163,8 @@ header div {
 }
 #content2 div p {
   color: hsl(208, 11%, 55%);
-  width: 512px;
+  /* width: 512px; */
+  width: 37.48vw;
   padding-bottom: 30px;
 }
 #content2 div img {
@@ -151,19 +177,20 @@ header div {
   justify-content: center;
 
 }
-#feedback::before {
+/* #feedback::before {
     background-color:hsl(192, 100%, 9%);
     content: "";
     position: absolute;
     height: 75%;
     width: 100%;
-    top: 2325px;
+    /* top: 2325px; */
+    /* top:  372vh ;
     z-index: -1;
 
-  }
+  } */ 
 #feedback div {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+  margin: 0px 0px -53px 0px;
   flex-direction: column;
   text-align: center;
   background-color: white;
@@ -192,7 +219,7 @@ header div {
 
 /* FOOTER */
 #footer {
-  /* background-color: hsl(192, 100%, 9%); */
+   background-color: hsl(192, 100%, 9%);
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -205,16 +232,19 @@ header div {
 }
 
 .footer-logo{
-    padding: 25px;
-    margin: 0px 44px;
+    padding: 90px 25px 25px 25px;
+    /* margin: 0px 44px; */
+    margin : 0vw 3.22vw;
     filter: invert(1);
 }
 #footerbox {
   display: flex;
-  margin: 0px 44px;
+  /* margin: 0px 44px; */
+  margin : 0vw 3.22vw;
 }
 #footerbox div {
-   padding: 15px; 
+   /* padding: 15px;  */
+   padding: 1.09vw;
 }
 .leftmost {
   width: 40%;
@@ -224,8 +254,8 @@ header div {
   width: 15%;
 }
 #footerbox li {
-
-  padding: 15px 15px 8px 15px;
+  padding: 1.09vw 1.09vw 0.58vw 1.09vw;
+  /* padding: 15px 15px 8px 15px; */
   list-style: none;
 }
 
@@ -238,7 +268,8 @@ header div {
   cursor: pointer;
 }
 #footerbox div div span {
-  padding: 3px 15px 0px 0px;
+  padding: 0.21vw 1.09vw 0vw 0vw ;
+  /* padding: 3px 15px 0px 0px; */
 }
 #footerbox div div {
   display: flex;
@@ -248,7 +279,8 @@ header div {
   display: flex;
 }
 #footerbox div p {
-  padding: 15px 1px 15px 15px;
+  padding: 1.09vw 0.07vw 1.09vw 1.09vw ;
+  /* padding: 15px 1px 15px 15px; */
   border-radius: 15px;
 }
 #footerbox div p a:hover {
@@ -262,11 +294,13 @@ header div {
 }
 #footerbox div p a {
   padding: 3px;
+  padding: 0.21vw;
   color: white;
   border: 1px solid white;
   border-radius: 31px;
 }
 #footerbox div p a i {
-  width: 25px;
+ width: 25px; 
+  /* width: 1.83vw; */
   text-align: center;
 }
