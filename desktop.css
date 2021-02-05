@@ -35,9 +35,10 @@ header div {
   font-family: "Poppins";
   width: 168px;
   border-bottom: groove;
+  outline: none;
 }
 #btn:hover {
-  outline: none;
+ 
   opacity: 0.5;
   cursor: pointer;
 }
@@ -86,6 +87,7 @@ header div {
   color: white;
   background-color: hsl(322, 100%, 66%);
   font-family: "Poppins";
+  outline: none;
 }
 .button2:hover {
   
@@ -213,6 +215,7 @@ header div {
   border: none;
   border-radius: 25px;
   border-bottom: groove;
+  outline: none;
 }
 #feedback div button:hover {
   opacity: 0.5;
