@@ -37,6 +37,7 @@ header div {
   border-bottom: groove;
 }
 #btn:hover {
+  outline: none;
   opacity: 0.5;
   cursor: pointer;
 }
@@ -87,6 +88,7 @@ header div {
   font-family: "Poppins";
 }
 .button2:hover {
+  
   opacity: 0.5;
   cursor: pointer;
 }
