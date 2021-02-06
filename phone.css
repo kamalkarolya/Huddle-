@@ -1,14 +1,16 @@
+  /* HEADER */
 header div img{
     width: 28vw;
 } 
  
  
- /* HOME */
+    /* HOME */
 #home{
+    padding-bottom: 0px;
     flex-direction: column;
     text-align-last: center;
     margin: 27px;
-    justify-content: space-between;
+ 
 }
 #btn{
     width: 25.66vw;
@@ -20,46 +22,52 @@ header div img{
     font-size: 1.8rem;
 }
 @media screen and (max-width: 528px){
-    #btn{
+     #btn{
         padding: 3px;
         width: 140px;
         height: 23px ;
     }
     #home div h1{
-        font-size: 1rem;
+        font-size: 20px;
+    }
+    #feedback div{
+        width: -webkit-fill-available;
+    
     }
 }
-
+#home div{
+    padding-bottom: 50px;
+}
 #home div p{
     text-align: center;
     width: auto;
 }
 
-/* CONTENT */
+   /* CONTENT */
 #content{
     text-align: center;
-    padding: 7.44vw 5.32vw 3.07vw 5.32vw;
-    margin: 23.41vw 4.67vw 3.87vw 4.67vw;
+    padding: 10.44vw 5.32vw 4.07vw 5.32vw;
+    margin: 14.41vw 4.67vw 6.87vw 4.67vw;
     flex-direction: column-reverse;
 }
 #content div p{
     width: unset;
 }
-/* CONTENT 1 */
+  /* CONTENT 1 */
 #content1{
     text-align: center;
     flex-direction: column;
-    padding: 7.44vw 5.32vw 3.07vw 5.32vw;
-    margin: 3.87vw 4.67vw 3.87vw 4.67vw;
+    padding: 10.44vw 5.32vw 4.07vw 5.32vw;
+    margin: 6.87vw 4.67vw 4.87vw 4.67vw;
 }
 #content1 div p{
     width: unset;
 }
-/* CONTENT 2 */
+  /* CONTENT 2 */
 #content2{
     text-align: center;
-    padding: 7.44vw 5.32vw 3.07vw 5.32vw;
-    margin: 3.87vw 4.67vw 8.87vw 4.67vw;
+    padding: 10.44vw 5.32vw 4.07vw 5.32vw;
+    margin: 6.87vw 4.67vw 8.87vw 4.67vw;
     flex-direction: column-reverse;
 }
 #content2 div p {
@@ -68,14 +76,14 @@ header div img{
 .content-image{
     text-align: center;
 }
-/* FEEDBACK */
+  /* FEEDBACK */
 #feedback div{
     padding: 36px 17px;
 
     font-size: 0.6rem;
     margin: 60px 10px -50px 10px;
 }
-/* FOOTER */
+   /* FOOTER */
 #footerbox{
     flex-direction: column;
 
@@ -101,9 +109,9 @@ header div img{
   .right {
     width: auto;
   }
-/* FOOTER */
+   /* FOOTER */
 .copyright{
-    padding: 15px;
+    padding: 15px 15px 30px 15px ;
     text-align: center;
 }
 .rightmost{
